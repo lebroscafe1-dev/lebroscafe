@@ -17,7 +17,7 @@ const Hero = () => {
       >
         <div className="absolute inset-0 bg-black/50 z-10" />
         <img 
-          src="images/storeoutsidepicture.jpeg" 
+          src="/images/storeoutsidepicture.jpeg" 
           alt="Le Bro's Cafe Ambience" 
           className="absolute inset-0 w-full h-full object-cover object-center"
         />

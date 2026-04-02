@@ -31,7 +31,7 @@ const Navbar = ({ isMenuPage }) => {
             className={`flex items-center gap-3 text-4xl font-serif italic tracking-tight transition-colors duration-300 ${isSolid ? "text-brand-text" : "text-white"}`}
           >
             <img
-              src="images/lebroslogo.png "
+              src="/images/lebroslogo.png"
               alt="Logo"
               className={`w-14 h-14 md:w-20 md:h-20 object-contain transition-all duration-300 ${isSolid ? "mix-blend-multiply" : "invert mix-blend-screen"}`}
             />

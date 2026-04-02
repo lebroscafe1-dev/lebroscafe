@@ -4,7 +4,7 @@ import { X } from 'lucide-react';
 import ScrollFloat from './ScrollFloat';
 
 const images = [
-  "images/insidepic2.jpeg",
+  "/images/insidepic2.jpeg",
   "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=1000&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1000&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=1000&auto=format&fit=crop"

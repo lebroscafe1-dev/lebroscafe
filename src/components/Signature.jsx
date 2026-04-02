@@ -16,7 +16,7 @@ const signatureItems = [
   {
     title: "Peri Peri Fries",
     desc: "Golden hand-cut fries heavily dusted with our secret in-house rustic peri peri spice blend.",
-    img: "images/peri peri fries.jpeg"
+    img: "/images/peri-peri-fries.jpeg"
   }
 ];
 
