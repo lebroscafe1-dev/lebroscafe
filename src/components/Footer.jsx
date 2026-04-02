@@ -21,9 +21,6 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100084839335354" className="w-12 h-12 rounded-full border border-brand-text/20 flex items-center justify-center text-brand-text hover:bg-brand-accent hover:text-white hover:border-transparent transition-all">
               <Facebook size={20} />
             </a>
-            <a href="#" className="w-12 h-12 rounded-full border border-brand-text/20 flex items-center justify-center text-brand-text hover:bg-brand-accent hover:text-white hover:border-transparent transition-all">
-              <Twitter size={20} />
-            </a>
           </div>
         </div>
 

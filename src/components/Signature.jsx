@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
 import ScrollFloat from './ScrollFloat';
 
 const signatureItems = [
@@ -73,7 +74,7 @@ const Signature = () => {
                 </p>
                 <div className="flex items-center gap-6">
                   <a href="#/menu" className="group inline-flex items-center justify-center w-14 h-14 rounded-full border border-brand-accent/30 hover:border-brand-accent hover:bg-brand-accent transition-all relative">
-                    <span className="text-brand-accent group-hover:text-white transition-colors">↗</span>
+                    <ArrowUpRight size={20} className="text-brand-accent group-hover:text-white transition-colors" />
                   </a>
                   <span className="text-sm tracking-widest uppercase font-medium text-brand-text/60">Explore Menu</span>
                 </div>

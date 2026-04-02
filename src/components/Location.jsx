@@ -101,7 +101,7 @@ const Location = () => {
                 {
                   icon: <Clock size={24} />,
                   title: "Hours",
-                  content: <>Everyday<br /><span className="text-brand-accent font-semibold">11 AM — 10 PM</span></>
+                  content: <>Everyday<br /><span className="text-brand-accent font-semibold">01:30 PM — 10:00 PM</span></>
                 }
               ].map((item, i) => (
                 <motion.div 
