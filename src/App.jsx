@@ -8,6 +8,8 @@ import Testimonials from './components/Testimonials';
 import Location from './components/Location';
 import Order from './components/Order';
 import Footer from './components/Footer';
+import Privacy from './components/Privacy';
+import Terms from './components/Terms';
 
 function App() {
   const [route, setRoute] = useState(window.location.hash);
@@ -19,15 +21,22 @@ function App() {
   }, []);
 
   const isMenuPage = route === '#/menu';
+  const isPrivacyPage = route === '#/privacy';
+  const isTermsPage = route === '#/terms';
+  const isInternalPage = isMenuPage || isPrivacyPage || isTermsPage;
 
   return (
     <div className="bg-brand-light min-h-screen text-brand-text w-full overflow-hidden font-sans">
-      <Navbar isMenuPage={isMenuPage} />
+      <Navbar isMenuPage={isInternalPage} />
       <main>
         {isMenuPage ? (
           <div className="mt-20">
             <Menu />
           </div>
+        ) : isPrivacyPage ? (
+          <Privacy />
+        ) : isTermsPage ? (
+          <Terms />
         ) : (
           <>
             <Hero />
